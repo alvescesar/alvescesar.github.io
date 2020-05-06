@@ -6,6 +6,7 @@
         <style>
             body {
                 background-color: rgb(223,248,235);
+                font-size: initial;
             }
             #Name {
                 font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +16,16 @@
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 color: rgb(4,57,94);
             }
-            #Skills {
+            .abilities {
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 color: rgb(17,21,28);
+                font-size: 2em;
+            }
+            .big {
+                font-size: large;
+            }
+            .small {
+                font-size: small;
             }
         </style>
     </head>    
@@ -32,20 +40,20 @@
         
         <h2 id="About">
             <p>César Alves é um compositor e produtor musical brasileiro, com base em 
-            Florianópolis - SC. Após sete anos trabalhando na indústria de games, desenvolveu 
+            <em>Florianópolis - SC</em>. Após sete anos trabalhando na indústria de games, desenvolveu 
             interesse em ingressar na carreira de programador, levando-o a aprovação no processo
-            seletivo da Trybe, a escola do futuro!
+            seletivo da <strong>Trybe, a escola do futuro!</strong>
             </p>
         </h2>
 
         <h3 id="Skills">Habilidades:
-            <ol>
-                <li><strong>Guitarra</strong>: <em>Rock, Jazz & Fusion</em></li>
-                <li>Composição: <em>Eletrônica</em>, linear ou interativa</li>
-                <li>Sound Design & Foley</li>
-                <li>Produção e direção de Voice Over</li>
-                <li>Game Design</li>
-                <li>Desenvolvimento web <strong>Full Stack</strong> (em breve)</li>
+            <ol class="abilities">
+                <li class="big"><strong>Guitarra</strong>: <em>Rock, Jazz & Fusion</em></li>
+                <li class="small">Composição: <em>Eletrônica</em>, linear ou interativa</li>
+                <li class="big">Sound Design & Foley</li>
+                <li class="small">Produção e direção de Voice Over</li>
+                <li class="small">Game Design</li>
+                <li class="big">Desenvolvimento web <strong>Full Stack</strong> (em breve)</li>
             </ol>
         </h3>
 
